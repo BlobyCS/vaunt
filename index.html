@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VAUNT.cz | Údržba</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="src/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">[<span>VAUNT</span>.cz]</div>
+    <div class="nav-badge">Údržba systému</div>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+
+    <div class="badges">
+      <span class="badge badge-green">Údržba · Aktivní</span>
+      <span class="badge badge-muted">CS2 Community</span>
+    </div>
+
+    <div class="title-wrap">
+      <h1>
+        <span class="white">VAUNT</span><span class="green">.CZ</span>
+      </h1>
+    </div>
+
+    <p class="subtitle">
+      Probíhá plánovaná údržba serverů.<br />
+      Brzy se vrátíme — servery, skiny, hráči.
+    </p>
+
+    <!-- COUNTDOWN CARD -->
+    <div class="countdown-card">
+      <div class="card-label">Spuštění za</div>
+      <div class="countdown-grid">
+        <div class="time-block">
+          <div class="time-number" id="days">00</div>
+          <div class="time-label">Dní</div>
+        </div>
+        <div class="time-sep">:</div>
+        <div class="time-block">
+          <div class="time-number" id="hours">00</div>
+          <div class="time-label">Hodin</div>
+        </div>
+        <div class="time-sep">:</div>
+        <div class="time-block">
+          <div class="time-number" id="minutes">00</div>
+          <div class="time-label">Minut</div>
+        </div>
+        <div class="time-sep">:</div>
+        <div class="time-block">
+          <div class="time-number" id="seconds">00</div>
+          <div class="time-label">Sekund</div>
+        </div>
+      </div>
+      <div class="card-date">Datum spuštění<span>15. 3. 2026</span></div>
+    </div>
+
+    <!-- PROGRESS BAR -->
+    <div class="progress-wrap">
+      <div class="progress-meta">
+        <span>Příprava</span>
+        <span id="progress-pct">0%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>[VAUNT.cz] © 2026</span>
+    <span>CS2 Community · Nezávislá česká komunita</span>
+    <span>Nejsme spojení s Valve ani CS2</span>
+  </footer>
+
+  <script src="src/script.js"></script>
+</body>
+</html>
