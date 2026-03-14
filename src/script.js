@@ -1,7 +1,7 @@
-const target = new Date('2026-03-15T00:00:00');
+const target = new Date('2026-03-22T16:00:00');
 
     // Progress: from some start date to target
-    const start = new Date('2026-03-01T00:00:00');
+    const start = new Date('2026-03-14T13:00:00');
     const totalDuration = target - start;
 
     function pad(n) { return String(n).padStart(2, '0'); }
